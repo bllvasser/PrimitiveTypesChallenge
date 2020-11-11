@@ -1,0 +1,20 @@
+package academy.learnprogrmming;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        byte byteValue = 10;
+        short shortValue = 20;
+        int inValue = 50;
+
+        long longTotal = 50_000L + 10L * (byteValue + shortValue + inValue);
+        System.out.println(longTotal);
+
+        
+    }
+}
+"C:\Program Files\Java\jdk-15.0.1\bin\java.exe" "-javaagent:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=50269:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\nadiy\IdeaProjects\PrimitiveTypesChallenge\out\production\PrimitiveTypesChallenge academy.learnprogrmming.Main
+50800
+
+Process finished with exit code 0
