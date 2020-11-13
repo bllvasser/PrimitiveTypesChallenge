@@ -18,3 +18,21 @@ public class Main {
 50800
 
 Process finished with exit code 0
+                double myDoubleValue = 20.00;
+                double myNextValue = 80.00;
+                double myTotalValue = (myDoubleValue + myNextValue) * 100.00;
+                double myRemainder = myTotalValue % 40;
+                System.out.println("My total value remainder is " + myRemainder);
+                boolean myAssignment = myRemainder == 0 ? true : false;
+                if (myAssignment = false ) {
+                    System.out.println("Got some remainder");
+                }
+            }
+
+    }
+
+    }
+    }
+My total value remainder is 0.0
+
+Process finished with exit code 0
